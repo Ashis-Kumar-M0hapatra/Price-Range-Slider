@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRICE RANGE SLIDER</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="box">
+        <h1>PRICE RANGE SLIDER</h1>
+        <div id="box-content">
+          <div id="min">
+            <span>Minimum Range</span> &nbsp;
+            <input type="text" id="text1" placeholder="Enter number 0 to 5K"/>
+          </div>
+          <div id="max">
+            <span>Maximum Range</span> &nbsp;
+            <input type="text" id="text2" placeholder="Enter number 5K to 10K" />
+          </div>
+          <div id="slider">
+              <input type="range" min="0" max="10000" id="slide">
+              <button id="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
